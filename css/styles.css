@@ -192,7 +192,6 @@ img {
   font-family: var(--ff-main-title);
   font-size: 6rem;
   margin-top: 25rem;
-  
 }
 
 #my-big-name-first::first-letter {
@@ -249,7 +248,7 @@ img {
 .skill-badge {
   height: 15rem;
   width: 15rem;
-  padding: 3rem
+  padding: 3rem;
 }
 
 .skill-badge:hover {
@@ -259,11 +258,9 @@ img {
 
 .split {
   display: flex;
-  flex-direction:  row;
+  flex-direction: row;
   margin: 3rem;
 }
-
-
 
 #about-container {
   justify-content: center;
@@ -276,12 +273,12 @@ img {
   width: 12em;
   border-radius: 50%;
   max-height: 17em;
-  margin: 3rem
+  margin: 3rem;
 }
 .text-block {
   flex-direction: column;
   width: 30rem;
-  
+
   text-align: center;
   padding: 3rem;
   height: 25rem;
@@ -338,7 +335,6 @@ img {
 .scraper-btn {
   display: flex;
   justify-content: center;
-  
 }
 
 #contact-text {
@@ -349,7 +345,6 @@ img {
 
 #email-link {
   color: var(--clr-accent-400);
-  
 }
 
 .social-media-wrapper {
@@ -405,7 +400,6 @@ footer {
   text-align: center;
 }
 
-
 /* ////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////// */
@@ -413,7 +407,6 @@ footer {
 @media (max-width: 890px) {
   .split {
     flex-direction: column;
-    
   }
 
   .container {
@@ -443,7 +436,7 @@ footer {
     margin-right: auto;
     padding: 0;
     justify-content: center;
-    align-items: center
+    align-items: center;
   }
 
   .text-block {
@@ -460,12 +453,11 @@ footer {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: auto
+    padding: auto;
   }
 }
 
 @media (max-width: 50em) {
-
   body {
     margin: auto 0;
   }
@@ -527,12 +519,11 @@ footer {
   }
 
   #about-container-left {
-    margin: auto
-    
+    margin: auto;
   }
 
   #about-container-right {
-    margin: auto 0
+    margin: auto 0;
   }
 
   .text-block {
@@ -545,7 +536,10 @@ footer {
   #email-link {
     font-size: 1.3rem;
   }
-  
+
+  #name-div {
+    margin-top: -4rem;
+  }
 }
 
 @media (max-width: 330px) {
@@ -580,7 +574,7 @@ footer {
   #email-link {
     font-size: 1.3rem;
   }
-  
+
   .icons li {
     height: 4rem;
     width: 4rem;
