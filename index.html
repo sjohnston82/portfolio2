@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+
+
+  <!-- CDNs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="main.js" defer></script>
+
+  <title>Stephen Johnston</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="brand-title"><a href="#home"><span id="first">S</span><span id="last">J</span></a></div>
+    <div class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#skills" class="nav-item">SKILLS</a></li>
+        <li><a href="#about" class="nav-item">ABOUT</a></li>
+        <li><a href="#projects" class="nav-item">PROJECTS</a></li>
+        <li><a href="#contacts" class="nav-item">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="container">
+      <div id="name-div">
+        <h1 id="my-big-name-first">
+          <span class="letter">S</span>
+          <span class="letter">T</span>
+          <span class="letter">E</span>
+          <span class="letter">P</span>
+          <span class="letter">H</span>
+          <span class="letter">E</span>
+          <span class="letter">N</span>
+        </h1>
+        <h1 id="my-big-name-last">
+          <span class="letter">J</span>
+          <span class="letter">O</span>
+          <span class="letter">H</span>
+          <span class="letter">N</span>
+          <span class="letter">S</span>
+          <span class="letter">T</span>
+          <span class="letter">O</span>
+          <span class="letter">N</span>
+        </h1>
+      </div>
+      <h3 id="my-big-title">Full Stack Web Developer</h3>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h1 class="text-center">My Skills</h1>
+      <div id="skill-badge-container">
+        <img src="images/javascript.svg" class="skill-badge" alt="Javascript Logo">
+        <img src="images/pythonbadge.png" class="skill-badge" alt="Python Logo">
+        <img src="images/reactbadge3.png" class="skill-badge" alt="React Logo">
+        <img src="images/vuebadge.png" class="skill-badge" alt="Vue Logo">
+        <img src="images/html5.svg" class="skill-badge" alt="HTML Logo">
+        <img src="images/css-3.svg" class="skill-badge" alt="CSS Logo">
+        <img src="images/djangobadge2.png" class="skill-badge" alt="Django Logo">
+        <img src="images/expresssvg-logo-white.svg" class="skill-badge" alt="Express Logo">
+        <img src="images/git.jpg" class="skill-badge" alt="Git Logo">
+        <img src="images/mongodb2.svg" class="skill-badge" alt="MongoDB Logo">
+        <img src="images/node-white.svg" class="skill-badge" alt="NodeJS Logo">
+        <img src="images/socket1.png" class="skill-badge" alt="Socketio Logo">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h1 class="text-center">About Me</h1>
+      <div id="about-container">
+        <div id="about-container-left" class="split">
+          <img src='images/profilepic.jpg' alt="my pic" id="profile-pic">
+          <div class="text-block">
+            <p>Hi!  I'm Stephen, a full-stack web developer who loves problem-solving and learning new technologies.</p>
+            <p>I proudly served in the US Army as an Airborne Infantryman.  After serving, I worked for nearly a decade as a food packaging printer.</p>
+            <p>Last year, I decided to take the leap to do something I've found myself to be very passionate about: coding.</p>
+          </div>
+        </div>
+        
+        
+        
+        <div id="about-container-right" class="split">
+          <div class="text-block">
+            <p>I am a graduate of PDX Code Guild's Python Full-Stack Course as well as their Advanced Javascript and MERN Stack Bootcamp.</p>
+            <p>When I'm not coding, I love playing PC games, reading sci-fi and fantasy novels, fishing, and spending time with my family.</p>
+          </div>
+          <img src='images/browntrout.jpg' alt="brown trout" id="fish-pic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h1 class="text-center">Some of my Projects</h1>
+      <div id="projects-container">
+        <div class="project-card">
+          <h2 class="project-card-title">Yahtzee!</h2>
+          <div class="project-card-img">
+            <img src="images/clipart1003392.png" alt="Yahtzee Multiplayer Online">
+          </div>
+          <div class="project-card-text">
+            <p>An online multiplayer version of Yahtzee built using the MERN stack and socket.io.  Play full games and chat. </p>
+            <p> This project was built by myself and another student as a capstone project for PDX Code Guild's AdvJS and MERN Stack Course.</p>
+          </div>
+          <div id="project-card-links">
+            <a href="https://github.com/mcbridz/pdx_yahtzee"><button class="project-card-link-btn">See the Code</button></a>
+            <a href="https://pdxcg-yahtzee.herokuapp.com"><button class="project-card-link-btn">Try it Live</button></a>
+          </div>
+        </div>
+      
+        <div class="project-card">
+          <h2 class="project-card-title">QuarterMaster</h2>
+          <div class="project-card-img">
+            <img src="images/logocropped.png" alt="QuarterMaster logo" >
+          </div>
+          <div class="project-card-text">
+            <p>QuarterMaster is a pantry inventory manager site.  Add items, keep track of expiration dates and make grocery lists.</p>
+            <p>This project was made as a capstone for PDX Code Guild's Full Stack Boot Camp.  It uses Vue and has django for the back end.</p>
+          </div>
+          <div id="project-card-links">
+            <a href="https://github.com/sjohnston82/quartermaster"><button class="project-card-link-btn">See the Code</button></a>
+            <a href="https://quartermaster.pythonanywhere.com/"><button class="project-card-link-btn">Try it Live</button></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Weather App</h2>
+          <div class="project-card-img">
+            <img src="js-weather-app/weather-background.jpeg" alt="Weather app" class="rounded-img">
+          </div>
+          <div class="project-card-text">
+            <p>This weather app uses the openWeather API to find accurate weather and forecasts.</p>
+            <p>It is built with JavaScript and dynamically changes the background image based on the weather of the location you are searching for.</p>
+          </div>
+          <div id="project-card-links">
+            <a href="https://github.com/sjohnston82/weather-app"><button class="project-card-link-btn">See the Code</button></a>
+            <a href="/portfolio/js-weather-app"><button class="project-card-link-btn">Try it Live</button></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Tic-Tac-React</h2>
+          <div class="project-card-img">
+            <img src="images/tictactoe.png" alt="TicTacToe">
+          </div>
+          <div class="project-card-text" id="tictactext">
+            <p>This project is an animated version of Tic-Tac-Toe.  It allows players to go back through their turn history to go back to previous moves.</p>
+            <p>It is made in React and utlizes CSS and SASS for styling.  </p>
+          </div>
+          <div id="project-card-links">
+            <a href="https://github.com/sjohnston82/react-tictactoe"><button class="project-card-link-btn">See the Code</button></a>
+            <a href="https://tictacreact.surge.sh"><button class="project-card-link-btn">Try it Live</button></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Web Scraper</h2>
+          <div class="project-card-img">
+            <img src="images/amazon.png" alt="Amazon logo" >
+          </div>
+          <div class="project-card-text" id="scraper-text">
+            <p>The purpose of this program is to scrape relevant data from Amazon product urls in a csv.
+              Inside the csv is also a buy below threshold, which will print an alert as well as send an
+              email notifying the recipient that the price is now below the threshold.
+      
+            </p>
+          </div>
+          <div id="project-card-links" class="scraper-btn" >
+            <a href="https://github.com/sjohnston82/Amazon-Webscraper"><button class="project-card-link-btn">See the Code</button></a>
+            <!-- <a href=""><button class="project-card-link-btn">Try it Live</button></a> -->
+          </div>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Blackjack</h2>
+          <div class="project-card-img">
+            <img src="images/blackjack21.jpg" alt="Blackjack logo" class="rounded-img">
+          </div>
+          <div class="project-card-text" id="bj-text">
+            <p>Single player blackjack game made with Vue.  It uses the Deck of Cards API to deal cards.</p>
+          </div>
+          <div id="project-card-links">
+            <a href="https://github.com/sjohnston82/blackjack-vue"><button class="project-card-link-btn">See the Code</button></a>
+            <a href="http://127.0.0.1:5500/portfolio2/blackjack/"><button class="project-card-link-btn">Try it Live</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <div class="container">
+      <h1 class="text-center">Contact Me</h1>
+      <p id="contact-text">Feel free to contact me at <a href= "mailto: johnstonstephenm@gmail.com" id="email-link">johnstonstephenm@gmail.com</a></p>
+      <div class="social-media-wrapper">
+        <ul class="icons">
+      
+          <li><a href="https://github.com/sjohnston82"><span class="fab fa-github"></span></a></li>
+          <li><a href="https://www.linkedin.com/in/stephenjohnston82/"><span class="fab fa-linkedin"></span></a></li>
+      
+       </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Developed by Stephen Johnston, 2021</p>
+  </footer>
+
+</body>
+</html>
